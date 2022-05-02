@@ -4,18 +4,21 @@ public class Rota {
     private String trajeto;
     private int valor;
     private int assento;
+    public String date;
 
-    public Rota(int id, String trajeto, int i, int j) {
+    public Rota(int id, String trajeto, int i, int j, String date) {
         this.id = id;
         this.trajeto = trajeto;
         this.valor = i;
         this.assento = j;
+        this.date = date;
 
     }
 
     @Override
     public String toString() {
-        return " Rota: " + trajeto + " || Valor $" + valor + " || Assentos disponíveis: " + assento + " || ID " + id;
+        return " Rota: " + trajeto + " || Valor $" + valor + " || Assentos disponíveis: " + assento + " || ID " + id
+                + " || Data " + date;
     }
 
     public long getId() {

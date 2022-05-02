@@ -9,27 +9,25 @@ public class PassagensAereas {
         Usuario usuario = null;
         List<Usuario> usuarioList = new ArrayList<>();
 
-        // acrescentar item no menu principal de visualizar rotas reservadas
-
-        Rota r1 = new Rota(1, "GRU - VCP", 500, 100);
-        Rota r2 = new Rota(2, "VCP - GRU", 500, 100);
-        Rota r3 = new Rota(3, "SSA - GRU", 800, 100);
-        Rota r4 = new Rota(4, "GRU - SSA", 800, 100);
-        Rota r5 = new Rota(5, "SSA - VCP", 900, 100);
-        Rota r6 = new Rota(6, "VCP - SSA", 900, 100);
-        Rota r7 = new Rota(7, "CGH - VCP", 600, 100);
-        Rota r8 = new Rota(8, "VCP - CGH", 600, 100);
-        Rota r9 = new Rota(9, "CGH - GRU", 600, 100);
-        Rota r10 = new Rota(10, "GRU - CGH", 600, 100);
-        Rota r11 = new Rota(11, "AJU - VCP", 900, 100);
-        Rota r12 = new Rota(12, "SDU - VCP", 500, 100);
-        Rota r13 = new Rota(13, "VCP - SDU", 500, 100);
-        Rota r14 = new Rota(14, "SDU - GRU", 500, 100);
-        Rota r15 = new Rota(15, "GRU - SDU", 500, 100);
-        Rota r16 = new Rota(16, "SDU - SSA", 900, 100);
-        Rota r17 = new Rota(17, "SSA - SDU", 900, 100);
-        Rota r18 = new Rota(18, "AJU - SDU", 900, 100);
-        Rota r19 = new Rota(19, "AJU - CGH", 900, 100);
+        Rota r1 = new Rota(1, "GRU - VCP", 500, 100, "28/04/2022");
+        Rota r2 = new Rota(2, "VCP - GRU", 500, 100, "28/04/2022");
+        Rota r3 = new Rota(3, "SSA - GRU", 800, 100, "28/04/2022");
+        Rota r4 = new Rota(4, "GRU - SSA", 800, 100, "28/04/2022");
+        Rota r5 = new Rota(5, "SSA - VCP", 900, 100, "28/04/2022");
+        Rota r6 = new Rota(6, "VCP - SSA", 900, 100, "28/04/2022");
+        Rota r7 = new Rota(7, "CGH - VCP", 600, 100, "28/04/2022");
+        Rota r8 = new Rota(8, "VCP - CGH", 600, 100, "28/04/2022");
+        Rota r9 = new Rota(9, "CGH - GRU", 600, 100, "28/04/2022");
+        Rota r10 = new Rota(10, "GRU - CGH", 600, 100, "28/04/2022");
+        Rota r11 = new Rota(11, "AJU - VCP", 900, 100, "28/04/2022");
+        Rota r12 = new Rota(12, "SDU - VCP", 500, 100, "28/04/2022");
+        Rota r13 = new Rota(13, "VCP - SDU", 500, 100, "28/04/2022");
+        Rota r14 = new Rota(14, "SDU - GRU", 500, 100, "28/04/2022");
+        Rota r15 = new Rota(15, "GRU - SDU", 500, 100, "28/04/2022");
+        Rota r16 = new Rota(16, "SDU - SSA", 900, 100, "28/04/2022");
+        Rota r17 = new Rota(17, "SSA - SDU", 900, 100, "28/04/2022");
+        Rota r18 = new Rota(18, "AJU - SDU", 900, 100, "28/04/2022");
+        Rota r19 = new Rota(19, "AJU - CGH", 900, 100, "28/04/2022");
 
         List<Rota> rotas = new ArrayList<>();
         rotas.add(r1);
